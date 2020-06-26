@@ -23,6 +23,7 @@ add('writable_dirs', []);
 // Hosts
 
 host('crm.augetecnologia.com')
+    ->user('augetecnologia')
     ->set('http_user','augetecnologia')
     ->port(2222)
     ->identityFile('~/.ssh/id_rsa')	    
